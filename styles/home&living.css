@@ -1,0 +1,146 @@
+#banner{
+    background-color: rgb(164, 219, 219);
+    width:100%;
+    height:55px;
+   
+}
+#top{
+    width:40%;
+    /* border:1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#img1{
+    height: 55px;
+    width:50px
+}
+#invite{
+    width:60%;
+    /* border:1px solid red; */
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:rgb(79, 75, 75);
+    font-size: 10px;
+}
+#top>button{
+    height:30px;
+    border-radius: 5px;
+    color: rgb(187, 42, 42);
+    }
+ 
+    /* --------------------- */
+#topImg{
+    width:92%;
+    margin:auto;
+    text-align: center;
+}
+#topImg>img{
+    width:100%;
+    margin-top: 20px;
+}
+/* ---------- */
+#box{
+    display: flex;
+    width:92%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#head{
+    width:70%;
+}
+#box>div>div[id="beds"]{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 400px);
+    gap:15px;
+    margin-bottom: 10px;
+}
+#beds>div>{
+   
+    margin-bottom: 10px;
+   
+}
+div>img{
+    width:100%;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+#div>img:hover{
+    transform:scaleX(1.1)
+    }
+
+/* ---------- */
+
+#list{
+    width:30%;
+}
+#list>div>h3{
+    margin:-5px 0px 0px 35px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #3e4152;
+    display: inline-block;
+    width: 100%;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+h3+ul, li>a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #3e4152;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    list-style:none;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    
+}
+li>a:hover{
+    text-decoration: underline;
+}
+h3+ul{
+    margin: 10px 0px 10px 0px;
+}
+
+/* --------------- */
+
+#set{
+    width:100%;
+    margin:auto;
+    text-align: center;
+  
+    margin: 10px 0px 20px 0px;
+}
+#set>div+div[id="set11"]{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 550px;
+    gap:10px;
+   
+}
+
+#set11>div{
+   
+    margin-top: 5px;
+}
+
+/* ----------- */
+
+#brand{
+    width:100%;
+    margin:auto;
+    text-align: center;
+   
+    margin-top: 10px;
+}
+#brand>div+div[id="brand11"]{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 200px;
+    gap:1px;
+  
+}
