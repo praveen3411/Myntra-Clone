@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-Page</title>
+    <script
+      src="https://kit.fontawesome.com/45cd62317f.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-color: pink;
+        background-size: cover;
+      }
+      form {
+        width: 600px;
+        height:600px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 3px 3px 2px rgb(239, 234, 243);
+        margin: auto;
+        transform: translateY(100px);
+        background-color: white;
+      }
+      input {
+        width: 300px;
+        padding: 10px;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: lighter;
+        font-size: 20px;
+        transform: translateX(140px);
+        margin: 10px;
+        border: outset;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px black;
+        background-image: url("https://images.pexels.com/photos/4175070/pexels-photo-4175070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+      }
+      #namethree {
+        transform: translateX(150px);
+        background: linear-gradient(
+          to left,
+          rgb(227, 147, 241),
+          rgb(180, 225, 247)
+        );
+      }
+      #boom:hover {
+        background: linear-gradient(
+          to right,
+          rgb(167, 185, 249),
+          rgb(176, 244, 187)
+        );
+      }
+       h2{
+            text-align: center;
+            color: rgb(235, 189, 249);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            text-shadow: 2px 2px 3px rgb(251, 204, 204);
+
+        }
+        #loli{
+          width:600px;
+          height: 300px;
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <form action="" id="two">
+      <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_auto,w_400,c_limit,fl_progressive/assets/images/2022/6/18/eb7fb69e-dfeb-4b34-b118-744163d43fbd1655490862990-Frame-92.jpg" id="loli" alt="">
+      <h2>Login</h2>
+      <input
+        type="email"
+        name=""
+        id="nameone"
+        placeholder="Enter Current E-mail"
+        required
+      />
+      <input
+        type="password"
+        name=""
+        id="nametwo"
+        placeholder="Current Password"
+        required
+      />
+      <input type="submit" name="" value="Submit" id="namethree" />
+    </form>
+  </body>
+</html>
+<script src="./scripts/login.js"></script>
