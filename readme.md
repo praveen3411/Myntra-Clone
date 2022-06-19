@@ -42,7 +42,7 @@ Here is the students name & there assign task:-
                               15th, 16th june : completed the entire part of the Kids page.
                               17th, 18th june : complete the beauty page.
 
-- GUDdu :- Resourse & Blogs -
+- GUDDU :- Resourse & Blogs -
                             13th june :  completed the half part of wishList, including js.
                             14th june Complete the entire part of WishList page.
                             15th, 16th june : complete the half of bag page.
