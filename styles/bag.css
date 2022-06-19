@@ -1,0 +1,190 @@
+     
+      body{
+        font-family:'Courier New', Courier, monospace
+      }
+      #main_box{
+          display:grid;
+          grid-template-columns: repeat(2,1fr);
+          gap:2%;
+          width:90%;
+          margin-left: 10%;
+      }
+      #container>div{
+          margin-bottom: 2%;
+      }
+      .btn1{
+          color:rgb(220, 11, 157);
+          height:50px;
+          background-color: white;
+          border:1px solid rgb(239, 1, 156);
+          margin-left: 10%;
+         font-size: 20px;
+      }
+      .box1{
+        
+        width:90%;
+        margin:2% 30% 2% 30%;
+      }
+      .div1{
+          display:grid;
+          grid-template-columns: repeat(2,1fr);
+          width:90%;
+          border:1px solid grey;
+          padding-left: 2%;
+         
+      }
+      .btn2{
+          border:1px solid palevioletred;
+          color:rgb(236, 9, 47);
+          background-color: white;
+          font-size: 17px;
+          width:70%;
+          height:50px;
+          margin-top: 2%;
+          margin-left: 25%;
+          cursor: pointer;
+      }
+     
+     .div2{
+      border:1px solid grey;
+      width:90%;
+     padding-left: 2%;
+     }
+     .div6{
+          display:grid;
+          gap:1%;
+          grid-template-columns: repeat(3,1fr);
+          width:90%;
+          border:1px solid grey;
+          padding-left: 2%;
+         
+     }
+     .remove{
+      width:30%;
+      height:30%;
+      margin-left: 49%;
+      border-radius: 10px;
+      background-color: red;
+      color:red;
+      cursor: pointer;
+     }
+     .div4{
+      width:150px
+     }
+     .div4>img{
+       width:90%;
+      margin-top: 1%;
+      height:auto;
+      
+     }
+     .div5{
+      width:300px;
+      line-height: 15px;
+     }
+     .div7{
+      border:1px solid grey;
+      width:90%;
+     padding-left: 2%;
+     cursor: pointer;
+     }
+   .div8{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-left: 3%;
+   }
+     #order_box{
+     
+       width:60%;
+      padding-left: 2%;
+     }
+     #navbar{
+     display:flex;
+     justify-content: space-between;
+     height:60px;
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+     margin-bottom: 2%;
+     }
+     #navbar>img{
+     margin-left: 2%;
+     }
+     #nav{
+      display:flex;
+     justify-content: space-between;
+     margin-right: 2%;
+     }
+     #nav>img{
+      height:50%;
+      margin-top: 10%;
+  
+     }
+    
+    #nav1{
+      display:flex;
+     justify-content: space-between;
+    }
+    .btn3{
+      width:80%;
+      height:40px;
+     cursor: pointer;
+      background-color: rgb(255, 39, 82);
+      color:white;
+      font-size: 20px;
+      border:none;
+      margin-bottom: 2%;
+    }
+    .btn3:hover{
+      background-color: rgb(255, 107, 53);
+      color:white
+    }
+    .pstrike{
+      transform: translateY(-44.5px);
+      margin-left: 90px;
+      text-decoration: line-through;
+    }
+
+    @media (min-width: 400px) and (max-width: 900px) { 
+
+      #main_box{
+        margin-left:1%;
+        width:100%;
+        gap:1%
+      }
+      .div1{
+          display:grid;
+          grid-template-columns: repeat(1,1fr);
+          
+        }
+       
+     .btn2{
+      margin-bottom: 10px;
+    
+     }
+     .div4{
+      width:100px
+     }
+     .div5{
+      width:150px;
+     
+     }
+     .remove{
+      width:50%;
+      height:50%;
+      margin-left: 10%;
+     }
+     .pstrike{
+      transform: translateY(5px);
+      transform: translateX(-70px);
+
+     }
+     .div8{
+      
+      width:300px
+     }
+     .btn3{
+      width:50%;
+      height:20px;
+      margin-left: 20px;
+      font-size: 10px;
+      
+
+    }
+  }
