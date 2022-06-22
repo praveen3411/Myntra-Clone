@@ -47,7 +47,7 @@ Here is the students name & there assign task:-
                             14th june Complete the entire part of WishList page.
                             15th, 16th june : complete the half of bag page.
                             16th, 17th june : Complete the other half part.
-                            18th june : Pending Bag page.
+                            18th june : complete Bag page.
                                     
 - RAHUL :- Address page & Payment page - 
                                         13th june : complete the Address form page.
